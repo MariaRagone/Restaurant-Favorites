@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+table {
+  background-color: rgb(231, 234, 233);
+  border-width: 5px;
+  box-shadow: 2px 2px #e3dfd9;
+  border: 1px solid black;
+  transition: 0.3s; 
+
+}
+td {
+  width: 100px;
+  text-align: center;
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid black;
+}
+th {
+  width: 100px;
+  text-align: center;
+  margin: 20px;
+}
+button {
+  background-color: #3097bd;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  height: 25px;
+}
+form {
+  Box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  transition: 0.3s; 
+  border-radius: 5px;
+  padding: 2px 16px;
+  background-color:#ffffff;
+  color: black;
+  align: center;
+  padding: 35px;
+  margin: 20px;
+  font-size: 12px;
+  width: 300px;
+}
+
+/* card design */
+img {
+  width: 100%;
+  border-radius: 12px;
+  height: 214px;
+  object-fit: cover;
+}
